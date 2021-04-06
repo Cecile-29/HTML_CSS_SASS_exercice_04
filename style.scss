@@ -1,0 +1,12 @@
+@mixin treatmentText {
+  font-size: 2em;
+  font-family: lucida;
+  color: red;
+}
+.titre_1{
+  background-color: blue;
+}
+.partie_1{
+  @include treatmentText;
+  @extend .titre_1;
+}
